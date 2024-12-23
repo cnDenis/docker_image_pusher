@@ -4,3 +4,4 @@ python:3.12
 wordpress:6.7.1-php8.1
 dokuwiki/dokuwiki
 registry
+node:22
