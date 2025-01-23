@@ -6,3 +6,4 @@ wordpress:6.7.1-php8.1-fpm
 dokuwiki/dokuwiki
 registry
 node:22
+redis:7
