@@ -6,3 +6,4 @@ dokuwiki/dokuwiki
 registry
 node:22
 redis:7
+milvusdb/milvus
