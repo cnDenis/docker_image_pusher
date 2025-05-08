@@ -7,3 +7,4 @@ registry
 node:22
 redis:7
 milvusdb/milvus
+mcr.microsoft.com/playwright/python:v1.52.0-jammy
