@@ -7,5 +7,5 @@ registry
 node:22
 redis:7
 milvusdb/milvus
-mcr.microsoft.com/playwright/python:v1.52.0-jammy
+mcr.microsoft.com/playwright/python:v1.54.0-jammy
 jenkins/jenkins:lts-jdk21
