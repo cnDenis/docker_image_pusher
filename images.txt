@@ -10,3 +10,4 @@ mcr.microsoft.com/playwright/python:v1.54.0-jammy
 jenkins/jenkins:lts-jdk21
 rabbitmq:4-management
 openjdk:8
+tomcat:9-jdk8
