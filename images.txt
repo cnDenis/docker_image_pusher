@@ -6,7 +6,7 @@ dokuwiki/dokuwiki
 registry
 node:22
 redis:7
-mcr.microsoft.com/playwright/python:v1.56.0-jammy
+mcr.microsoft.com/playwright/python:v1.55.0-jammy
 jenkins/jenkins:lts-jdk21
 rabbitmq:4-management
 tomcat:9-jdk8
