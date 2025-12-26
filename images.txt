@@ -1,6 +1,7 @@
 nginx
 python:3.10
 python:3.12
+python:3.14
 wordpress:6.8.2-php8.1
 dokuwiki/dokuwiki
 registry
