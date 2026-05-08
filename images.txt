@@ -2,12 +2,15 @@ nginx
 python:3.10
 python:3.12
 python:3.14
+python-slim:3.10
+python-slim:3.12
+python-slim:3.14
 wordpress:6.9.4-php8.3
 dokuwiki/dokuwiki
 registry
 node:22
 redis:7
-mcr.microsoft.com/playwright/python:v1.58.0-noble
+mcr.microsoft.com/playwright/python:v1.59.0-noble
 jenkins/jenkins:lts-jdk21
 rabbitmq:4-management
 tomcat:9-jdk8
