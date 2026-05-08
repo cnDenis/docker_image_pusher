@@ -2,9 +2,9 @@ nginx
 python:3.10
 python:3.12
 python:3.14
-python-slim:3.10
-python-slim:3.12
-python-slim:3.14
+python:3.10-slim
+python:3.12-slim
+python:3.14-slim
 wordpress:6.9.4-php8.3
 dokuwiki/dokuwiki
 registry
