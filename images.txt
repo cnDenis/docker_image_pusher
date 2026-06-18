@@ -12,7 +12,7 @@ redis:7
 mcr.microsoft.com/playwright/python:v1.59.0-noble
 jenkins/jenkins:lts-jdk21
 rabbitmq:4-management
-tomcat:9-jdk8
+tomcat:8.5-jre8-temurin
 389ds/dirsrv
 louislam/uptime-kuma:2
 chromedp/headless-shell
