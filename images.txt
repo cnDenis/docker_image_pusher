@@ -5,7 +5,7 @@ python:3.14
 python:3.10-slim
 python:3.12-slim
 python:3.14-slim
-wordpress:6.9.4-php8.3
+wordpress:7.0.2-php8.3
 registry
 node:22
 redis:7
