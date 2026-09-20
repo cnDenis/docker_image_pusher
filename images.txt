@@ -9,7 +9,7 @@ wordpress:7.0.4-php8.3
 registry
 node:22
 redis:7
-mcr.microsoft.com/playwright/python:v1.59.0-noble
+mcr.microsoft.com/playwright/python:v1.63.0-noble
 jenkins/jenkins:lts-jdk21
 rabbitmq:4-management
 tomcat:8.5-jre8-temurin
