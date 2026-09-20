@@ -18,3 +18,4 @@ louislam/uptime-kuma:2
 chromedp/headless-shell
 eclipse-temurin:8-jre-noble
 eclipse-temurin:8-jdk-noble
+qdrant/qdrant
