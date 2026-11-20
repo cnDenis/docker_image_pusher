@@ -30,7 +30,8 @@ jobs:
       uses: easimon/maximize-build-space@master
       with:
 
-        root-reserve-mb: 6144
+        root-reserve-mb: 10240    # 强制根分区保留 10GB
+        temp-reserve-mb: 2048     # 提高临时保留阈值至 2GB
         swap-size-mb: 128
         remove-dotnet: 'true'
         remove-haskell: 'true'
