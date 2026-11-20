@@ -39,8 +39,14 @@ jobs:
         remove-codeql: 'true'
         build-mount-path: '/var/lib/docker/'
 
-    - name: Restart docker
-      run: sudo service docker restart
+    # - name: Restart docker
+    #  run: sudo service docker restart
+
+    - name: Configure Docker Daemon & Restart
+      run: |
+          sudo mkdir -p /etc/docker
+          echo '{"max-concurrent-uploads": 1}' | sudo tee /etc/docker/daemon.json
+          sudo service docker restart
 
     - name: Free up disk space complete
       run: |
