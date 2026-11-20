@@ -1,6 +1,21 @@
 nginx
-#支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
-#支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+python:3.10
+python:3.12
+python:3.14
+python:3.10-slim
+python:3.12-slim
+python:3.14-slim
+wordpress:7.1.5-php8.3
+registry
+node:22
+redis:7
+mcr.microsoft.com/playwright/python:v1.65.2-noble
+jenkins/jenkins:lts-jdk21
+rabbitmq:4-management
+tomcat:8.5-jre8-temurin
+389ds/dirsrv
+louislam/uptime-kuma:2
+chromedp/headless-shell
+eclipse-temurin:8-jre-noble
+eclipse-temurin:8-jdk-noble
+qdrant/qdrant
